@@ -1,0 +1,214 @@
+body {
+    background-image: url("Imagenes/Logotipo fondo.png");
+}
+
+h1{
+    font-family: Sans-serif, Arial, Helvetica,;
+    color: #f7f7f7;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 0.85;
+}
+
+.indicaciones{
+    font-size: 20px;
+    background-color: #f7f7f7;
+    padding: 10px;
+}
+
+.fondoEnlace1{
+    background-color: #ff595e;
+}
+
+.fondoEnlace2{
+    background-color: #ff5f00;
+}
+
+.fondoEnlace3{
+    background-color: #ffca3a;
+}  
+
+.fondoEnlace4{
+    background-color: #8ac926;
+}  
+
+header{
+    display: flex;
+    min-height: 90px;
+    justify-content:space-evenly;
+    background-color: #343a40;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    
+    height: 90px;
+    margin-left: 60px;
+  }
+  
+nav{
+    background-color: #343a40;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+nav a{
+    padding-right: 60px;
+    font-size: 1rem;
+}
+
+.enlace1{
+    display: inline-flex;
+    background-color: #343a40;
+    padding: 10 px 30 px;
+    text-decoration: none;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.enlace1:hover{
+    color: #ff595e;
+}
+
+.enlace2{
+    display: inline-flex;
+    background-color:#343a40;
+    padding: 10 px 30 px;
+    text-decoration: none;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.enlace2:hover{
+    color: #ff5f00;
+}
+
+.enlace3{
+    display: inline-flex;
+    background-color: #343a40;
+    padding: 10 px 30 px;
+    text-decoration: none;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.enlace3:hover{
+    color:#ffca3a;
+}
+
+.enlace4{
+    display: inline-flex;
+    background-color: #343a40;
+    padding: 10 px 30 px;
+    text-decoration: none;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.enlace4:hover{
+    color: #8ac926;
+}
+
+.enlace5{
+    display: inline-flex;
+    background-color: #343a40;
+    padding: 10 px 30 px;
+    text-decoration: none;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.enlace5:hover{
+    color: #1982c4;
+}
+
+.enlace6{
+    display: inline-flex;
+    background-color: #343a40;
+    padding: 10 px 30 px;
+    text-decoration: none;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.enlace6:hover{
+    color: #6a4c93;
+}
+
+.enlace7{
+    display: inline-flex;
+    background-color: #343a40;
+    padding: 10 px 30 px;
+    text-decoration: none;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.enlace7:hover{
+    font-weight: 700;
+    color: white;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+
+    .logo img{
+        padding-right: 10px;
+        padding-left: 30px;
+    }
+}
+
+.piePagina{
+    width: 100%;
+    background-color: #343a40;
+}
+
+.piePagina .logoPie{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.piePagina .redesSociales{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+.piePagina .redesSociales a{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    text-decoration:none;
+    width: 45px;
+    height: 45px;
+    line-height: 20px;
+}
+
+.piePagina .redesSociales a:hover{
+    font-size: 22px;
+}
+
+.piePagina .autora{
+    margin-top: 1px;
+    background-color: #1d20243f;
+    text-align: center;
+    color: white;
+}
